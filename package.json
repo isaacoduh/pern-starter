@@ -1,0 +1,11 @@
+{
+  "name": "pern-starter-template",
+  "version": "1.0.0",
+  "description": "A simple ready to go starter plate for PERN code projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Oduh",
+  "license": "ISC"
+}
