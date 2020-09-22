@@ -1,8 +1,8 @@
-var express = require('express');
-var router = express.Router();
+import express  from 'express';
+const indexRouter = express.Router();
 
-router.get('/', function(req, res, next){
-  return res.status(200).json({message: 'Welcome to base route of PERN Starter Template'});
+indexRouter.get('/', (req, res) => {
+  res.status(200).json({message: 'Welcome to PERN Starter Template'})
 });
 
-module.exports = router;
+export default indexRouter;
